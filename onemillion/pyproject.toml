@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "onemillion"
+version = "0.1.0"
+description = ""
+authors = ["Simon Tsvetkov <semen.tsvetkov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.95.2"
+sqlmodel = "^0.0.8"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
